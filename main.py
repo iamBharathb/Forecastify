@@ -16,7 +16,7 @@ st.set_page_config(layout="wide", page_title="FORECASTIFY", page_icon="📈")
 st.sidebar.markdown("<h1 style='text-align: center; font-size: 30px;'><b>Forcasti.</b><b style='color: orange'>fy</b></h1>", unsafe_allow_html=True)
 st.sidebar.title("Options")
 start_date_key = str(uuid.uuid4())
-start_date = st.sidebar.date_input("Start date", date(2018, 1, 1), key=start_date_key)
+start_date = st.sidebar.date_input("Start date", date(2008, 1, 1), key=start_date_key)
 end_date = st.sidebar.date_input("End date", date.today())
 
 # Header
